@@ -1,32 +1,35 @@
 package com.kh.chap01_abstraction.model.vo;
 
 /*
-Å¬·¡½ºÀÇ ±¸Á¶
-public class Å¬·¡½º¸í {
-	
-	// ÇÊµåºÎ
-	
-	// »ı¼ºÀÚºÎ
-	
-	// ¸Ş¼ÒµåºÎ
-	public void method1() {
-		
-	}
-}
-*/
+ * * í´ë˜ìŠ¤ì˜ êµ¬ì¡°
+ * 	 public class í´ë˜ìŠ¤ëª… {
+ * 
+ *   // í•„ë“œë¶€
+ *   
+ *   // ìƒì„±ìë¶€
+ * 
+ *   // ë©”ì†Œë“œë¶€
+ *   public void method1() {
+ *   
+ *   }
+ * 
+ *   }
+ */
 
-public class Student { // ÇĞ»ıÀ» Ãß»óÈ­ÇØ¼­ ¸¸µç Å¬·¡½º (¿Ïº®ÇÑ »óÅÂ´Â ¾Æ´Ô)
+
+
+
+public class Student { // í•™ìƒì„ ì¶”ìƒí™”í•´ì„œ ë§Œë“  í´ë˜ìŠ¤ (ì™„ë²½í•œ ìƒíƒœëŠ” ì•„ë‹˜)
 	
-	// ÇÊµåºÎ
-	// Á¢±ÙÁ¦ÇÑÀÚ ÀÚ·áÇü º¯¼ö¸í
+	// í•„ë“œë¶€
+	// ì ‘ê·¼ì œí•œì ìë£Œí˜• ë³€ìˆ˜ëª…
 	
-	// * Á¢±ÙÁ¦ÇÑÀÚ : ¿©±â¿¡ Á¢±ÙÇÒ ¼ö ÀÖ´Â ¹üÀ§¸¦ Á¦ÇÑÇÏ´Â °Í
+	// * ì ‘ê·¼ì œí•œì : ì—¬ê¸°ì— ì ‘ê·¼í•  ìˆ˜ ìˆëŠ” ë²”ìœ„ë¥¼ ì œí•œí•˜ëŠ” ê²ƒ
 	//			   public > protected > default > private
 	
-	public String name; // ÀÌ¸§
-	public int age; // ³ªÀÌ
-	public double height; // Å°
+	public String name; // ì´ë¦„
+	public int age; // ë‚˜ì´
+	public double height; // í‚¤
 	
-	
-	
+
 }
